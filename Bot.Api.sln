@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Api.Ebot", "Bot.Api.Ebot\Bot.Api.Ebot.csproj", "{03CFFC29-7395-4BEA-AD76-C282BA91D547}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Api.Common", "Bot.Api.Common\Bot.Api.Common.csproj", "{5EBE3755-30C1-40BB-AC7D-42BF5466C5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Api.Ebot", "Bot.Api.Ebot\Bot.Api.Ebot.csproj", "{206A82D3-9944-49AB-B6DE-8F605C73AE79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03CFFC29-7395-4BEA-AD76-C282BA91D547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03CFFC29-7395-4BEA-AD76-C282BA91D547}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03CFFC29-7395-4BEA-AD76-C282BA91D547}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03CFFC29-7395-4BEA-AD76-C282BA91D547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBE3755-30C1-40BB-AC7D-42BF5466C5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBE3755-30C1-40BB-AC7D-42BF5466C5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBE3755-30C1-40BB-AC7D-42BF5466C5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBE3755-30C1-40BB-AC7D-42BF5466C5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206A82D3-9944-49AB-B6DE-8F605C73AE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206A82D3-9944-49AB-B6DE-8F605C73AE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206A82D3-9944-49AB-B6DE-8F605C73AE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206A82D3-9944-49AB-B6DE-8F605C73AE79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
